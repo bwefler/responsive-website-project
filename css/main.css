@@ -87,11 +87,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .content-wrapper {
-    outline: 2px dashed blue;
-    width: 90%;
-    margin: 50px 0;
-  }
+/* General Styles */
+
+html { 
+  font-size: 1rem;
+}
+  
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul, 
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h1 {
+  line-height: 2.6875em;  /* 43px; */
+  font-weight: 500;
+}
+
+/* Give your h2, h3 & h4, and paragraphs a font size based on 1em = 16px */
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em; /* 30px;  */
+  font-weight: 500;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em; /* 18px */
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.875em; /* 14px */
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+  font-size: 0.875em; /* Giving it same as paragraphs: 14px */
+  line-height: 1.125em;
+}
+
+.content-wrapper {
+  outline: 2px dashed blue; /* ### */
+  width: 90%;
+  margin: 50px 0;
+}
 
   /* -------------------- Base Header - Footer Styles -------------------- */
  
@@ -215,6 +274,7 @@ textarea {
 
   .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1.875em; /* 30px */
   }
 
   .reviews h3 {
@@ -225,49 +285,50 @@ textarea {
    About Page
    ========================================================================== */
 
-  /* Mission */
-  .mission {
-    display: flex;
-    justify-content: center;
-  }
+/* Mission */
+.mission {
+  display: flex;
+  justify-content: center;
+}
 
-  /* Contact section */
-  .contact-section {
-    display: flex;
-    justify-content: center;
-  }
+/* Contact section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
 
-  .contact-content p {
-    margin: 0;
-  }
+.contact-content p {
+  margin: 0;
+}
 
 
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
 
-  /* FAQ */
-  .faq {
-    display: flex;
-    justify-content: center;
-  }
+/* FAQ */
+.faq {
+  display: flex;
+  justify-content: center;
+}
 
-  /* FAQ content wrapper */
-  .faq .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    margin: 50px 0 0 0;
-  }
+/* FAQ content wrapper */
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
 
-  .faq h2 {
-    margin: 40px 40px 40px -20px; /* --- */
-  }
+.faq h2 {
+  margin: 40px 40px 40px -20px; /* --- */
+  line-height: 1.875em; /* 30px */
+}
 
-  .faq .content {
-    margin-bottom: 50px;
-  }
+.faq .content {
+  margin-bottom: 50px;
+}
 
  
 /* ==========================================================================
